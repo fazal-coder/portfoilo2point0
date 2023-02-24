@@ -1,0 +1,490 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: #363543;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 12%;
+}
+.navlogo i {
+  color: #d1d1dd;
+  font-size: 20px;
+  margin: 10px;
+  
+}
+
+.namelogo {
+  color: #fff;
+}
+
+.navv {
+  display: flex;
+}
+.navv a {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 20px;
+  padding: 5px 0;
+  margin: 0px 30px;
+  color: #4f4e5c;
+  transition: all 0.5s ease;
+  text-decoration: none;
+
+}
+ul {
+  list-style-type: none;
+
+}
+
+.navv a:hover {
+  color: #d1d1dd;
+}
+
+/* MAIN Page  */
+
+.content {
+  position: absolute;
+  top: 30%;
+  left: 8%;
+}
+
+.content h4 {
+  color: aqua;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.content h1 {
+  color: white;
+font-size: 72px;
+padding: 0px 25px;
+width: 482px;
+}
+.content p {
+  color: #d1d1dd;
+  font-size: 19px;
+  margin-bottom: 50px;
+  height: 69px;
+  width: 442px;
+  padding: 25px 0px;
+}
+
+.circle1{
+  width: 32%;
+  height: 514px;
+  background-color: #282834;
+  position: absolute;
+  left: 557px;
+  border-radius: 100%;
+  bottom: -65px;
+  top: 14%;
+}
+
+.image{
+  display: flex;
+  justify-content: center; 
+  
+}
+.image img{
+  position: relative;
+right: 1%;
+bottom: 1rem;
+padding-top: 104px;
+width: 23%;
+background-color: transparent;
+border-radius: 10%;
+}
+.secondcontent {
+  position: absolute;
+  top: 21%;
+  left: 65%;
+  background-color: transparent;
+}
+
+.secondcontent h3 {
+  color: #d1d1dd;
+  font-weight: lighter;
+  font-size: 29px;
+}
+
+.secondcontent p {
+  color: #d1d1dd;
+font-size: 20px;
+font-weight: bold;
+height: 102px;
+width: 258px;
+padding: 5px 0px;
+background-color: transparent;
+}
+
+.secondcontent a {
+  color: #7bff00;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.secondcontent div i {
+  color: #7bff00;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50%;
+  background: #2c2b38;
+  
+  
+}
+
+.req {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle {
+  width: 1125px;
+  height: 100px;
+  background-color: #323240;
+  box-shadow: 10px 10px 70px 2px #1c1c24;
+  position: absolute;
+}
+
+.log {
+  display: flex;
+  justify-content: space-between;
+}
+
+.log img {
+  height: 68px;
+  width: 198px;
+  padding: 9px;
+  background: #2c2b38;
+  margin: 27px;
+}
+
+.secondpart {
+  background-color: #282834;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.detail {
+  width: 50%;
+  margin-top: 100px;
+  padding: 80px 20px 20px 220px;
+  background-color: #282834;
+  
+}
+
+.detail h1 {
+  color: white;
+  background-color: #282834;
+  color: #d1d1dd;
+  width: 300px;
+}
+
+.detail p {
+  margin-top: 20px;
+  color: white;
+  background-color: #282834;
+  color: #d1d1dd;
+  width: 500px;
+}
+/* Image and skill */
+
+.col
+{
+   display: flex;
+   flex-direction: column;
+   width: 600px;
+   height: 167px;
+   padding:10px;
+   background-color: #282834;
+   margin-bottom: 200px;
+
+}
+.imagejob{
+  position: relative;
+  top: 0%;
+  left: 1%;
+  
+  background-color: #282834;
+ 
+  
+
+
+}
+
+.imagejob img{
+  height: 100px;
+  width: auto;
+}
+
+.imagejob p{
+
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 1%;
+  left: 33%;
+   color: white;
+   background-color: #282834;
+}
+
+#seven1{
+  font-weight: lighter;
+  background-color: #282834;
+  position: relative;
+  top: 9%;
+left: 1%;
+
+}
+.imagejob h6{
+  position: relative;
+  font-weight: bolder;
+  font-size: 40px;
+  top: -62%;
+left: 79%;
+  width: 0px;
+  color: #7bff00;
+}
+
+/* Second Tag */
+
+.imagejobsecond {
+  position: relative;
+  top: 0%;
+  left: 1%;
+  margin-bottom: 20px;
+  background-color: #282834;
+
+
+}
+
+.imagejobsecond img{
+  height: 100px;
+  width: auto;
+}
+.imagejobsecond p{
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 1%;
+  left: 33%;
+   color: white;
+   background-color: #282834;
+}
+
+#seven2{
+  position: relative;
+  top: 9%;
+  left: 1%;
+  background-color: #282834;
+  font-weight: lighter;
+  
+}
+
+.imagejobsecond h6{
+  position: relative;
+  font-weight: bolder;
+  font-size: 40px;
+  top: -62%;
+left: 79%;
+  width: 0px;
+  color: #7bff00;
+}
+
+/* Three Tag */
+.imagejobthird {
+  background-color: #282834;
+  position: relative;
+  top: 0%;
+  left: 1%;
+
+
+}
+
+.imagejobthird img{
+  height: 100px;
+  width: auto;
+}
+.imagejobthird p{
+  position: absolute;
+  top: 1%;
+  left: 33%;
+   color: white;
+   background-color: #282834;
+   font-size: 18px;
+   font-weight: bold;
+   
+}
+
+#seven3{
+  background-color: #282834;
+  position: relative;
+  top: 9%;
+  left: 1%;
+  font-weight: lighter;
+}
+
+.imagejobthird h6{
+  position: relative;
+  font-weight: bolder;
+  font-size: 40px;
+  top: -62%;
+left: 79%;
+  width: 0px;
+  color: #7bff00;
+}
+
+
+/* Yellow project part */
+
+.skill {
+  position: relative;
+  left: 0%;
+  top: 25px;
+  background-color: #282834;
+
+
+}
+
+.skill div {
+  color: #dfae3c;
+  font-weight: bold;
+  font-size: 150%;
+  background-color: #282834;
+}
+.skill p {
+  color: white;
+  font-size: 90%;
+  background-color: #282834;
+  color: #d1d1dd;
+}
+
+
+.second {
+  position: relative;
+ left: 43%;
+top: -39px;
+  background-color: #282834;
+  width: 20px;
+}
+
+.second div {
+  color: #dfae3c;
+  font-weight: bold;
+  font-size: 150%;
+  background-color: #282834;
+  width: 20px;
+}
+
+.second p {
+  color: white;
+  font-size: 90%;
+  background-color: #282834;
+  color: #d1d1dd;
+  width: 20px;
+}
+
+
+.Third {
+  position: relative;
+  left: -1%;
+top: -5px;
+  background-color: #282834;
+}
+
+.Third div {
+  color: #dfae3c;
+  font-weight: bold;
+  font-size: 150%;
+  background-color: #282834;
+}
+
+.Third p {
+  color: white;
+  font-size: 90%;
+  background-color: #282834;
+  color: #d1d1dd;
+}
+
+
+.forth {
+  position: relative;
+  left: 43%;
+  top: -66px;
+  background-color: #282834;
+}
+.forth div {
+  color: #dfae3c;
+  font-weight: bold;
+  font-size: 150%;
+  background-color: #282834;
+}
+.forth p {
+  color: white;
+  font-size: 84%;
+  background-color: #282834;
+  color: #d1d1dd;
+}
+
+
+/* CARD */
+
+
+
+.card {
+  height: 395px;
+  width: 335px;
+  padding: 25px 35px;
+  background: #323240;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 10px 10px 70px 2px #1c1c24;
+}
+
+.card i {
+  font-size: 30px;
+  display: block;
+  text-align: start;
+  margin: 10px 0px;
+  color: #7bff00;
+  background-color: #323240;
+}
+
+h5 {
+  color: #d1d1dd;
+  font-size: 23px;
+  margin-bottom: 10px;
+  background-color: #323240;
+}
+
+.pra p {
+  color: #fcfc;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  background-color: #323240;
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
