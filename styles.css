@@ -60,15 +60,17 @@ ul {
 }
 
 .content h4 {
-  color: aqua;
+  color: #d1d1dd;
   font-size: 40px;
   font-weight: lighter;
+  background-color: transparent;
 }
 .content h1 {
   color: white;
 font-size: 72px;
 padding: 0px 25px;
 width: 482px;
+background-color: transparent;
 }
 .content p {
   color: #d1d1dd;
@@ -77,6 +79,7 @@ width: 482px;
   height: 69px;
   width: 442px;
   padding: 25px 0px;
+  background-color: transparent;
 }
 
 .circle1{
@@ -116,6 +119,7 @@ border-radius: 10%;
   color: #d1d1dd;
   font-weight: lighter;
   font-size: 29px;
+  background-color: transparent;
 }
 
 .secondcontent p {
